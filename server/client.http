@@ -1,0 +1,15 @@
+
+### get data all sw
+GET https://mui.anuchadev.com/getswdata HTTP/1.1
+
+### update state sw
+GET https://mui.anuchadev.com/updatestatesw/3/0 HTTP/1.1
+
+### update data sw
+GET https://mui.anuchadev.com/updatdatasw/5/sw5/67/77/7/9 HTTP/1.1
+
+### get data tem && hum 
+GET https://mui.anuchadev.com/getrialdata HTTP/1.1
+
+### update data temp && hum
+GET https://mui.anuchadev.com/updatarialdata/67/66 HTTP/1.1

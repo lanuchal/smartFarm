@@ -1,0 +1,61 @@
+.App {
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  padding-bottom: 2rem;
+}
+
+#light {
+  background-color: #c5ebf0;
+}
+
+#dark {
+  color: #2088ff;
+  background-color: #01000e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.head{
+  margin: auto;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#light .nav{
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #489af8;
+}
+#dark .nav{
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #100b30;
+}
+#light .main {
+  background-color: #fff;
+  border-radius: 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dark .main {
+  background-color: #100b30;
+  border-radius: 0.1rem;
+  box-shadow: #36316459 0px 5px 10px;
+  
+}
+.sw{
+  display: flex;
+  align-items: center;
+}
+#light .tt {
+  display: flex;
+  align-items: center;
+}
+
+#dark .tt {
+  display: flex;
+  align-items: center;
+}
